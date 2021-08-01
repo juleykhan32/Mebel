@@ -1,0 +1,36 @@
+@import "_null";
+@import "_header";
+@import "_catalog";
+@import "_footer";
+
+body {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+  color: #414141;
+}
+
+body.lock {
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* fonts */
+
+// font-family: 'Playfair Display', serif;
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Roboto Condensed', sans-serif;
+
+.container {
+  max-width: 1180px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
